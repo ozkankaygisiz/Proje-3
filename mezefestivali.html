@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css" />
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body>
+   <header>
+      <div class="uk-container">
+         <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left uk-flex-1 uk-padding">
+               <a class="uk-navbar-item uk-logo uk-padding-remove" href="mezefestivali.html">
+                  <img src="LOGO TR (1).png" alt="test">
+               </a>
+               <ul class="uk-navbar-nav uk-margin-auto uk-visible@1">
+                  <li>
+                     <a href="festival.html ">FESTİVAL</a>
+                  </li>
+                  <li>
+                     <a href="">RESTORANLAR</a>
+                  </li>
+                  <li>
+                     <a href="">MEZELER</a>
+                  </li>
+                  <li>
+                     <a href="">KONAKLAMA</a>
+                  </li>
+                  <li class="uk-hover">
+                     <a href="https://www.biletix.com/etkinlik/1C312/TURKIYE/tr?utm_source=mezefestivali">BİLET AL</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="uk-navbar-item uk-padding-remove uk-visible@l uk-flex-right ">
+               <ul class="uk-iconnav">
+                  <li>
+                     <a href="" target="_blank" uk-icon="icon: icn-instagram" class="uk-icon">
+                        <svg width="32" height="33">
+                           <path
+                              d="M16 13.4102C15.2044 13.4102 14.4413 13.7262 13.8787 14.2888C13.3161 14.8514 13 15.6145 13 16.4102C13 17.2058 13.3161 17.9689 13.8787 18.5315C14.4413 19.0941 15.2044 19.4102 16 19.4102C16.7956 19.4102 17.5587 19.0941 18.1213 18.5315C18.6839 17.9689 19 17.2058 19 16.4102C19 15.6145 18.6839 14.8514 18.1213 14.2888C17.5587 13.7262 16.7956 13.4102 16 13.4102ZM16 11.4102C17.3261 11.4102 18.5979 11.9369 19.5355 12.8746C20.4732 13.8123 21 15.0841 21 16.4102C21 17.7362 20.4732 19.008 19.5355 19.9457C18.5979 20.8834 17.3261 21.4102 16 21.4102C14.6739 21.4102 13.4021 20.8834 12.4645 19.9457C11.5268 19.008 11 17.7362 11 16.4102C11 15.0841 11.5268 13.8123 12.4645 12.8746C13.4021 11.9369 14.6739 11.4102 16 11.4102ZM22.5 11.1602C22.5 11.4917 22.3683 11.8096 22.1339 12.044C21.8995 12.2785 21.5815 12.4102 21.25 12.4102C20.9185 12.4102 20.6005 12.2785 20.3661 12.044C20.1317 11.8096 20 11.4917 20 11.1602C20 10.8286 20.1317 10.5107 20.3661 10.2763C20.6005 10.0419 20.9185 9.91016 21.25 9.91016C21.5815 9.91016 21.8995 10.0419 22.1339 10.2763C22.3683 10.5107 22.5 10.8286 22.5 11.1602ZM16 8.41016C13.526 8.41016 13.122 8.41716 11.971 8.46816C11.187 8.50516 10.661 8.61016 10.173 8.80016C9.76462 8.95009 9.39541 9.19042 9.093 9.50316C8.78001 9.80556 8.53935 10.1747 8.389 10.5832C8.199 11.0732 8.094 11.5982 8.058 12.3812C8.006 13.4852 8 13.8712 8 16.4102C8 18.8842 8.007 19.2882 8.058 20.4392C8.095 21.2222 8.2 21.7492 8.389 22.2362C8.559 22.6712 8.759 22.9842 9.091 23.3162C9.428 23.6522 9.741 23.8532 10.171 24.0192C10.665 24.2102 11.191 24.3162 11.971 24.3522C13.075 24.4042 13.461 24.4102 16 24.4102C18.474 24.4102 18.878 24.4032 20.029 24.3522C20.811 24.3152 21.338 24.2102 21.826 24.0212C22.2338 23.8705 22.6027 23.6306 22.906 23.3192C23.243 22.9822 23.444 22.6692 23.61 22.2392C23.8 21.7462 23.906 21.2192 23.942 20.4392C23.994 19.3352 24 18.9492 24 16.4102C24 13.9362 23.993 13.5322 23.942 12.3812C23.905 11.5992 23.8 11.0712 23.61 10.5832C23.4593 10.1752 23.2191 9.80612 22.907 9.50316C22.6047 9.19 22.2355 8.94932 21.827 8.79916C21.337 8.60916 20.811 8.50416 20.029 8.46816C18.925 8.41616 18.539 8.41016 16 8.41016ZM16 6.41016C18.717 6.41016 19.056 6.42016 20.122 6.47016C21.187 6.52016 21.912 6.68716 22.55 6.93516C23.21 7.18916 23.766 7.53316 24.322 8.08816C24.8305 8.58805 25.224 9.19275 25.475 9.86016C25.722 10.4972 25.89 11.2232 25.94 12.2882C25.987 13.3542 26 13.6932 26 16.4102C26 19.1272 25.99 19.4662 25.94 20.5322C25.89 21.5972 25.722 22.3222 25.475 22.9602C25.2247 23.6279 24.8311 24.2328 24.322 24.7322C23.822 25.2405 23.2173 25.6339 22.55 25.8852C21.913 26.1322 21.187 26.3002 20.122 26.3502C19.056 26.3972 18.717 26.4102 16 26.4102C13.283 26.4102 12.944 26.4002 11.878 26.3502C10.813 26.3002 10.088 26.1322 9.45 25.8852C8.78233 25.6346 8.17753 25.2411 7.678 24.7322C7.16941 24.2323 6.77593 23.6276 6.525 22.9602C6.277 22.3232 6.11 21.5972 6.06 20.5322C6.013 19.4662 6 19.1272 6 16.4102C6 13.6932 6.01 13.3542 6.06 12.2882C6.11 11.2222 6.277 10.4982 6.525 9.86016C6.77524 9.19234 7.1688 8.58748 7.678 8.08816C8.17767 7.57939 8.78243 7.18589 9.45 6.93516C10.088 6.68716 10.812 6.52016 11.878 6.47016C12.944 6.42316 13.283 6.41016 16 6.41016Z"
+                              fill="#000">
+                           </path>
+
+
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="" target="_blank" uk-icon="icon: icn-facebook" class="uk-icon">
+                        <svg width="32" height="33">
+                           <path d="M17 24.3482C19.0173 24.0915 20.8611 23.0763 22.1568 21.5089C23.4525 19.9416 24.1027
+                                 17.9397 23.9754 15.9101C23.848 13.8806 22.9527 11.9756 21.4713 10.5825C19.9898
+                                 9.18943 18.0336 8.41268 16 8.41016C13.964 8.40864 12.0039 9.18349 10.5193
+                                 10.5768C9.03473 11.9702 8.13724 13.8771 8.00974 15.9092C7.88225 17.9412 8.53434
+                                 19.9454 9.83314 21.5134C11.132 23.0814 12.9797 24.0952 15
+                                 24.3482V18.4102H13V16.4102H15V14.7562C15 13.4192 15.14 12.9342 15.4 12.4452C15.6561
+                                 11.9613 16.052 11.5658 16.536 11.3102C16.918 11.1052 17.393 10.9822 18.223
+                                 10.9292C18.552 10.9082 18.978 10.9342 19.501 11.0092V12.9092H19C18.083 12.9092
+                                 17.704 12.9522 17.478 13.0732C17.3431 13.1425 17.2334 13.2523 17.164 13.3872C17.044
+                                 13.6132 17 13.8372 17 14.7552V16.4102H19.5L19 18.4102H17V24.3482ZM16 26.4102C10.477
+                                 26.4102 6 21.9332 6 16.4102C6 10.8872 10.477 6.41016 16 6.41016C21.523 6.41016 26
+                                 10.8872 26 16.4102C26 21.9332 21.523 26.4102 16 26.4102Z" fill="#000">
+                           </path>
+
+
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="" target="_blank" uk-icon="icon: icn-youtube" class="uk-icon">
+                        <svg width="32" height="33">
+                           <path
+                              d="M23.606 9.40516C23.53 9.10716 23.314 8.88216 23.067 8.81316C22.63 8.69016 20.5 8.41016 16 8.41016C11.5 8.41016 9.372 8.69016 8.931 8.81316C8.687 8.88116 8.471 9.10616 8.394 9.40516C8.285 9.82916 8 13.2062 8 16.0102C8 18.8142 8.285 22.9902 8.394 23.4162C8.47 23.7132 8.686 23.9382 8.932 24.0062C9.372 24.1302 11.5 24.4102 16 24.4102C20.5 24.4102 22.629 24.1302 23.069 24.0072C23.313 23.9392 23.529 23.7142 23.606 23.4152C23.715 22.9912 24 18.8102 24 16.0102C24 13.2102 23.715 9.83016 23.606 9.40516ZM25.543 8.90816C26 10.6902 26 16.0102 26 16.0102C26 16.0102 26 22.1302 25.543 23.9122C25.289 24.8972 24.546 25.6722 23.605 25.9342C21.896 26.4102 16 26.4102 16 26.4102C16 26.4102 10.107 26.4102 8.395 25.9342C7.45 25.6682 6.708 24.8942 6.457 23.9122C6 22.1302 6 16.0102 6 16.0102C6 16.0102 6 10.6902 6.457 8.90816C6.711 7.92316 7.454 7.14816 8.395 6.88616C10.107 6.41016 16 6.41016 16 6.41016C16 6.41016 21.896 6.41016 23.605 6.88616C24.55 7.15216 25.292 7.92616 25.543 8.90816ZM14 19.5102V12.5102L20 16.0102L14 19.5102Z"
+                              fill="#000">
+                           </path>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+
+   </header>
+   <main>
+      <div class="uk-slideshow uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 724; animation: slide">
+
+         <ul class="uk-slideshow-items" style="min-height: 724px;">
+            <li tabindex="-1" class="uk-active uk-transition-active" style="transform: translated(0px, 0px, 0px);">
+               <a href="https://www.youtube.com/watch?v=xWfYqxDPi5Q&list=RDxWfYqxDPi5Q&start_radio=1" target="">
+               <img src="FULLBLOCK (1).png" alt="" uk-cover style="height: 877px; width: 2032px;">
+            </a>
+            </li>
+            <li>
+               <img src="FULLBLOCK (1).png" alt="" uk-cover style="height: 877px; width: 2032px;">
+            </li>
+            <li>
+               <img src="FULLBLOCK (1).png" alt="" uk-cover style="height: 877px; width: 2032px;">
+            </li>
+         </ul>
+
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+
+      </div>
+   </main>
+   <section class="uk-section uk-section-muted uk-background-widt-1-1 uk-background-top-center uk-background-norepeat"
+      style="background: #E6E6DB" id="test3">
+      <div class="uk-container uk-text-center">
+         <div class="uk-grid uk-grid-medium uk-grid-divider uk-child-width-auto uk-flex-center uk-margin-small-bottom">
+            <div>
+               <img src="AKRA LOGO.png" alt="">
+            </div>
+            <div>
+               <a href="">
+               <img src="AKRA LOGO.png" alt="">
+               </a>
+            </div>
+         </div>
+         <div class="uk-margin-medium-top" id="test">
+            <h1 class="uk-margin-small-bottom">4. ULUSLARASI MEZE FESTİVALİ GELİYOR!
+            </h1>
+            <h2 class="uk-margin-small">Enfes Lezzetlerin Şölenine Hazır Mısınız?</h2>
+         </div>
+
+         <div class="uk-margin-remove-last-child uk-margin-medium-bottom uk-text-large uk-text-light uk-text-center">
+            <p class="x_MsoNormal">
+               Gastronomi dünyasının saygın işletmelerini bir araya getiren 3. Uluslararası Meze Festivali, Yoğun ilgi
+               gören ilk iki senesinin ardından gastronomi meraklıları ile birlikte 18 Ekim 2019 Cuma günü bir kez daha
+               Antalya, Akra’da bir araya geldi. Akra Hotels tarafından düzenlenen festival, Türkiye’nin en geniş
+               kapsamlı meze festivali olma özelliğini taşıyor. Festival; Antalya’dan Kaş’a, İstanbul, Ankara ve
+               Urla’dan Ordu’ya kadar uzanan geniş bir yelpazeye sahip gastronomi dünyasının saygın işletmelerine ait
+               birbirinden güzel lezzetleri, meze severlerin beğenisine sundu. Yurtiçinde öne çıkan birçok mekanın
+               yanında yurtdışından da işletmeler festivalde yerini aldı. Festival aradan geçen uzun sürenin ardından
+               2022’de tekrar sizlerle birlikte!
+            </p>
+            <a href="" class="uk-button uk-button-secondary uk-button-large uk-hover" target="_blank">BİLET AL</a>
+         </div>
+      </div>
+   </section>
+   <div class="uk-section section-restaurant">
+      <div class="uk-container">
+         <div class="uk-text-center uk-text-large uk-text-light">
+            <h1>KATILIMCILAR</h1>
+            <h2>4. Uluslararası Meze Festivali’nde bizlerle birlikte olan mekanlar.</h2>
+         </div>
+         <div class="uk-margin-large">
+            <div
+               class="uk-grid uk-grid-medium uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-6@l uk-margin-remove"
+               uk-grid>
+               <div class="uk-first-column">
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div class="uk-first-column">
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-right"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+               <div>
+                  <a id="test1" href="#"
+                     class="uk-flex uk-flex-center uk-flex-middle uk-transition-toggle uk-inline-clip item uk-animation-slide-left"
+                     tabindex="0">
+                     <img src="akra-meze-festivali-2022-7-mehmet.png" alt="">
+                  </a>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <section class="uk-section footer-top">
+         <div class="uk-container">
+            <div class="uk-grid uk-grid-medium uk-child-width-1-3@m" uk-grid>
+               <div class="uk-text-center uk-text-left@m uk-first-column">
+                  <a href="#">
+                     <img src="LOGO TR (1).png" alt="">
+                  </a>
+               </div>
+               <div class="uk-grid uk-child-width-1-3 uk-flex-center uk-text-bold">
+                  <div>
+                     <ul class="uk-nav uk-nav-default">
+                        <li>
+                           <a href="" class="uk-flex-center">HAKKIMIZDA</a>
+                        </li>
+                        <li>
+                           <a href="" class="uk-flex-center">PROGRAM</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div>
+                     <ul class="uk-nav uk-nav-default">
+                        <li>
+                           <a href="#">KATILIMCILAR</a>
+                        </li>
+                        <li>
+                           <a href="#">MEZELER</a>
+                        </li>
+                        <li>
+                           <a href="#">KEŞFET</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div>
+                     <ul class="uk-nav uk-nav-default">
+                        <li>
+                           <a href="#">KONAKLAMA</a>
+                        </li>
+                        <li>
+                           <a href="#">İLETİŞİM</a>
+                        </li>
+                        <li id="biletal">
+                           <a href="#">BİLET AL</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="uk-text-center uk-text-right@m ">
+                  <ul class="uk-iconnav uk-flex-center uk-flex-right@m">
+                     <li>
+                        <a href="" target="_blank" uk-icon="icon: icn-instagram" class="uk-icon">
+                           <svg width="32" height="33">
+                              <path
+                                 d="M16 13.4102C15.2044 13.4102 14.4413 13.7262 13.8787 14.2888C13.3161 14.8514 13 15.6145 13 16.4102C13 17.2058 13.3161 17.9689 13.8787 18.5315C14.4413 19.0941 15.2044 19.4102 16 19.4102C16.7956 19.4102 17.5587 19.0941 18.1213 18.5315C18.6839 17.9689 19 17.2058 19 16.4102C19 15.6145 18.6839 14.8514 18.1213 14.2888C17.5587 13.7262 16.7956 13.4102 16 13.4102ZM16 11.4102C17.3261 11.4102 18.5979 11.9369 19.5355 12.8746C20.4732 13.8123 21 15.0841 21 16.4102C21 17.7362 20.4732 19.008 19.5355 19.9457C18.5979 20.8834 17.3261 21.4102 16 21.4102C14.6739 21.4102 13.4021 20.8834 12.4645 19.9457C11.5268 19.008 11 17.7362 11 16.4102C11 15.0841 11.5268 13.8123 12.4645 12.8746C13.4021 11.9369 14.6739 11.4102 16 11.4102ZM22.5 11.1602C22.5 11.4917 22.3683 11.8096 22.1339 12.044C21.8995 12.2785 21.5815 12.4102 21.25 12.4102C20.9185 12.4102 20.6005 12.2785 20.3661 12.044C20.1317 11.8096 20 11.4917 20 11.1602C20 10.8286 20.1317 10.5107 20.3661 10.2763C20.6005 10.0419 20.9185 9.91016 21.25 9.91016C21.5815 9.91016 21.8995 10.0419 22.1339 10.2763C22.3683 10.5107 22.5 10.8286 22.5 11.1602ZM16 8.41016C13.526 8.41016 13.122 8.41716 11.971 8.46816C11.187 8.50516 10.661 8.61016 10.173 8.80016C9.76462 8.95009 9.39541 9.19042 9.093 9.50316C8.78001 9.80556 8.53935 10.1747 8.389 10.5832C8.199 11.0732 8.094 11.5982 8.058 12.3812C8.006 13.4852 8 13.8712 8 16.4102C8 18.8842 8.007 19.2882 8.058 20.4392C8.095 21.2222 8.2 21.7492 8.389 22.2362C8.559 22.6712 8.759 22.9842 9.091 23.3162C9.428 23.6522 9.741 23.8532 10.171 24.0192C10.665 24.2102 11.191 24.3162 11.971 24.3522C13.075 24.4042 13.461 24.4102 16 24.4102C18.474 24.4102 18.878 24.4032 20.029 24.3522C20.811 24.3152 21.338 24.2102 21.826 24.0212C22.2338 23.8705 22.6027 23.6306 22.906 23.3192C23.243 22.9822 23.444 22.6692 23.61 22.2392C23.8 21.7462 23.906 21.2192 23.942 20.4392C23.994 19.3352 24 18.9492 24 16.4102C24 13.9362 23.993 13.5322 23.942 12.3812C23.905 11.5992 23.8 11.0712 23.61 10.5832C23.4593 10.1752 23.2191 9.80612 22.907 9.50316C22.6047 9.19 22.2355 8.94932 21.827 8.79916C21.337 8.60916 20.811 8.50416 20.029 8.46816C18.925 8.41616 18.539 8.41016 16 8.41016ZM16 6.41016C18.717 6.41016 19.056 6.42016 20.122 6.47016C21.187 6.52016 21.912 6.68716 22.55 6.93516C23.21 7.18916 23.766 7.53316 24.322 8.08816C24.8305 8.58805 25.224 9.19275 25.475 9.86016C25.722 10.4972 25.89 11.2232 25.94 12.2882C25.987 13.3542 26 13.6932 26 16.4102C26 19.1272 25.99 19.4662 25.94 20.5322C25.89 21.5972 25.722 22.3222 25.475 22.9602C25.2247 23.6279 24.8311 24.2328 24.322 24.7322C23.822 25.2405 23.2173 25.6339 22.55 25.8852C21.913 26.1322 21.187 26.3002 20.122 26.3502C19.056 26.3972 18.717 26.4102 16 26.4102C13.283 26.4102 12.944 26.4002 11.878 26.3502C10.813 26.3002 10.088 26.1322 9.45 25.8852C8.78233 25.6346 8.17753 25.2411 7.678 24.7322C7.16941 24.2323 6.77593 23.6276 6.525 22.9602C6.277 22.3232 6.11 21.5972 6.06 20.5322C6.013 19.4662 6 19.1272 6 16.4102C6 13.6932 6.01 13.3542 6.06 12.2882C6.11 11.2222 6.277 10.4982 6.525 9.86016C6.77524 9.19234 7.1688 8.58748 7.678 8.08816C8.17767 7.57939 8.78243 7.18589 9.45 6.93516C10.088 6.68716 10.812 6.52016 11.878 6.47016C12.944 6.42316 13.283 6.41016 16 6.41016Z"
+                                 fill="#000">
+                              </path>
+
+
+                           </svg>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="" target="_blank" uk-icon="icon: icn-facebook" class="uk-icon">
+                           <svg width="32" height="33">
+                              <path d="M17 24.3482C19.0173 24.0915 20.8611 23.0763 22.1568 21.5089C23.4525 19.9416 24.1027
+                                    17.9397 23.9754 15.9101C23.848 13.8806 22.9527 11.9756 21.4713 10.5825C19.9898
+                                    9.18943 18.0336 8.41268 16 8.41016C13.964 8.40864 12.0039 9.18349 10.5193
+                                    10.5768C9.03473 11.9702 8.13724 13.8771 8.00974 15.9092C7.88225 17.9412 8.53434
+                                    19.9454 9.83314 21.5134C11.132 23.0814 12.9797 24.0952 15
+                                    24.3482V18.4102H13V16.4102H15V14.7562C15 13.4192 15.14 12.9342 15.4 12.4452C15.6561
+                                    11.9613 16.052 11.5658 16.536 11.3102C16.918 11.1052 17.393 10.9822 18.223
+                                    10.9292C18.552 10.9082 18.978 10.9342 19.501 11.0092V12.9092H19C18.083 12.9092
+                                    17.704 12.9522 17.478 13.0732C17.3431 13.1425 17.2334 13.2523 17.164 13.3872C17.044
+                                    13.6132 17 13.8372 17 14.7552V16.4102H19.5L19 18.4102H17V24.3482ZM16 26.4102C10.477
+                                    26.4102 6 21.9332 6 16.4102C6 10.8872 10.477 6.41016 16 6.41016C21.523 6.41016 26
+                                    10.8872 26 16.4102C26 21.9332 21.523 26.4102 16 26.4102Z" fill="#000">
+                              </path>
+
+
+                           </svg>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="" target="_blank" uk-icon="icon: icn-youtube" class="uk-icon">
+                           <svg width="32" height="33">
+                              <path
+                                 d="M23.606 9.40516C23.53 9.10716 23.314 8.88216 23.067 8.81316C22.63 8.69016 20.5 8.41016 16 8.41016C11.5 8.41016 9.372 8.69016 8.931 8.81316C8.687 8.88116 8.471 9.10616 8.394 9.40516C8.285 9.82916 8 13.2062 8 16.0102C8 18.8142 8.285 22.9902 8.394 23.4162C8.47 23.7132 8.686 23.9382 8.932 24.0062C9.372 24.1302 11.5 24.4102 16 24.4102C20.5 24.4102 22.629 24.1302 23.069 24.0072C23.313 23.9392 23.529 23.7142 23.606 23.4152C23.715 22.9912 24 18.8102 24 16.0102C24 13.2102 23.715 9.83016 23.606 9.40516ZM25.543 8.90816C26 10.6902 26 16.0102 26 16.0102C26 16.0102 26 22.1302 25.543 23.9122C25.289 24.8972 24.546 25.6722 23.605 25.9342C21.896 26.4102 16 26.4102 16 26.4102C16 26.4102 10.107 26.4102 8.395 25.9342C7.45 25.6682 6.708 24.8942 6.457 23.9122C6 22.1302 6 16.0102 6 16.0102C6 16.0102 6 10.6902 6.457 8.90816C6.711 7.92316 7.454 7.14816 8.395 6.88616C10.107 6.41016 16 6.41016 16 6.41016C16 6.41016 21.896 6.41016 23.605 6.88616C24.55 7.15216 25.292 7.92616 25.543 8.90816ZM14 19.5102V12.5102L20 16.0102L14 19.5102Z"
+                                 fill="#000">
+                              </path>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
+                  <div class="uk-margin-medium" id="test4">
+                     <a href="" class="uk-h1 uk-margin-remove uk-link-text uk-flex-inline uk-flex-middle uk-gap-small">
+                        <span uk-icon="icon: icn-phone" class="uk-icon">
+                           <svg width="32" height="33">
+                              <path
+                                 d="M23.9991 20.2472V23.3904C23.9992 23.6154 23.914 23.8321 23.7605 23.9968C23.6071 24.1614 23.397 24.2617 23.1725 24.2775C22.7841 24.3041 22.4668 24.3184 22.2214 24.3184C14.3668 24.3184 8 17.9512 8 10.0961C8 9.8508 8.01333 9.53347 8.04089 9.14503C8.05664 8.92053 8.15695 8.71037 8.32159 8.55694C8.48622 8.40352 8.70291 8.31826 8.92795 8.31836H12.0709C12.1811 8.31825 12.2875 8.35912 12.3693 8.43304C12.4511 8.50697 12.5025 8.60866 12.5135 8.71836C12.534 8.9228 12.5526 9.08547 12.5704 9.20903C12.7471 10.4418 13.1091 11.6409 13.6441 12.7655C13.7286 12.9432 13.6735 13.1557 13.5135 13.2695L11.5954 14.6401C12.7681 17.373 14.9459 19.5508 17.6786 20.7237L19.0474 18.809C19.1033 18.7308 19.185 18.6747 19.278 18.6505C19.3711 18.6263 19.4697 18.6355 19.5567 18.6766C20.6811 19.2107 21.8797 19.5718 23.112 19.7477C23.2356 19.7655 23.3983 19.785 23.6009 19.8046C23.7104 19.8158 23.8119 19.8673 23.8857 19.9491C23.9594 20.0309 24.0001 20.1371 24 20.2472H23.9991Z"
+                                 fill="#000"></path>
+                           </svg>
+                        </span>
+                        444 40 45
+                     </a>
+                  </div>
+                  <div>
+                     <a href="https://www.biletix.com/etkinlik/1C312/TURKIYE/tr?utm_source=mezefestivali"
+                        target="_blank">
+                        <img src="biletix.png" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </footer>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>

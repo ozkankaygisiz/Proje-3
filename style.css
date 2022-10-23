@@ -1,0 +1,103 @@
+body {
+   font-family:'BenchNine';
+}
+
+.uk-container h1 {
+   color: #000;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 63px;
+   letter-spacing: 3%;
+   font-family:'BenchNine';
+}
+.uk-container h2 {
+   color: #000;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 42px;
+   letter-spacing: 3%;
+   font-family:'BenchNine';
+}
+
+.uk-navbar-nav .uk-hover a{
+   color: #d13c34;
+}
+
+.uk-slideshow-items li img {
+   height: 877px !important;
+   margin-bottom: 0;
+}
+.x_MsoNormal {
+   text-align: center !important;
+   font-size: bold;
+   margin-top: 20px;
+   font-family:'BenchNine';
+}
+.uk-button {
+   background-color: #d13c34;
+   color: white;
+   font-size: 25px;
+   border:2px dashed #FFFFFF;
+
+}
+.uk-navbar-nav li a {
+   font-size: 20px;
+   color: black;
+}
+#test1 img{
+border: 2px dashed black;
+width: 170px;
+height: 203px;
+padding: 5px;
+background-color: #CECFBC33;
+
+}
+#test1:hover {
+   background-color: #CECFBC33;
+}
+.uk-nav li a {
+font-family: 'BenchNine';
+font-weight: 400;
+font-size: 20px;
+line-height: 26.76px;
+align-items: center;
+color: black !important;
+}
+.footer-top {
+   border-top: 2px dashed #000 !important;
+}
+#test3 {
+   border-bottom: 2px dashed #000;
+}
+.uk-iconnav li a {
+   color: black;
+}
+#test4 a {
+   color: black;
+}
+#test4 a svg {
+   color: black;
+}
+#biletal a{
+   color: #d13c34 !important;
+}
+.uk-section-program {
+   border-top: 2px dashed #000;
+}
+.uk-section-program h1 {
+font-family:'BenchNine' ;
+font-size: 42px;
+font-weight: 700;
+line-height: 63px;
+width: 140px;
+height: 63px;
+}
+
+#paragraf {
+   font-size: 24px !important;
+   line-height: 36px;
+   font-family: 'BenchNine';
+}
+#button {
+   padding: 15px 60px;
+}
