@@ -54,7 +54,27 @@ background-color: #CECFBC33;
 }
 #test1:hover {
    background-color: #CECFBC33;
+   
+
 }
+#test1 {
+   position: relative;
+}
+#test1 span {
+   opacity: 0;
+   transition: all .5s;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #CECFBC33;
+   color: #FFFFFF;
+}
+#test1:hover span {
+opacity: 1;
+transition: all .5s;
+
+}
+
 .uk-nav li a {
 font-family: 'BenchNine';
 font-weight: 400;
